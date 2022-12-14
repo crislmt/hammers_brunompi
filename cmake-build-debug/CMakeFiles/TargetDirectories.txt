@@ -1,3 +1,0 @@
-C:/Users/Chris/CLionProjects/NSDS-MPI/cmake-build-debug/CMakeFiles/NSDS_MPI.dir
-C:/Users/Chris/CLionProjects/NSDS-MPI/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Chris/CLionProjects/NSDS-MPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir

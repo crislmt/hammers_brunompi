@@ -36,8 +36,16 @@ int compute_country_id(int x, int y);
  */
 int main(int argc, char *argv[]){
 
-    MPI_Init(NULL, NULL);
-    printf("%d, %d, %d, %d, %d, %d, %d, %d, %d", atoi(argv[1]),atoi(argv[2]), atoi(argv[3]), atoi(argv[4]), atoi(argv[5]), atoi(argv[6]), atoi(argv[7]), atoi(argv[8]), atoi(argv[9]) );
+    if (argc != 10) {
+        std::cout << "Expected 1 input, got " << argc - 1<< std::endl;
+        return 0;
+    }
+
+    MPI_Init(&argc, &argv);
+    int rank, size;
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
     initialize(atoi(argv[1]),atoi(argv[2]), atoi(argv[3]), atoi(argv[4]), atoi(argv[5]), atoi(argv[6]), atoi(argv[7]), atoi(argv[8]), atoi(argv[9]));
     infection();
 
@@ -46,7 +54,7 @@ int main(int argc, char *argv[]){
 
 
 void infection(){
-    
+
     int x_positions[N];
     int y_positions[N];
     int statuses[N];
@@ -60,30 +68,40 @@ void infection(){
     int nation_infected_total[n_country];
     int nation_susceptible_total[n_country];
     int nation_immune_total[n_country];
+    int rk;
+    int sz;
 
-    int rk = MPI_Comm_rank(MPI_COMM_WORLD, &rk);
-    int  sz = MPI_Comm_size(MPI_COMM_WORLD, &sz);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rk);
+    MPI_Comm_size(MPI_COMM_WORLD, &sz);
+
+
 
     Person process_people[chunksize];
-    srand(time(NULL));
+    srand(time(0));
     for(int i=0; i<chunksize; i++){
         process_people[i].x= rand()%L;
         process_people[i].y= rand()%W;
         process_people[i].id = rk*chunksize+i;
+        process_people[i].vx = v;
+        process_people[i].vy = v;
         if(process_people[i].id < I) process_people[i].status=INFECTED;
+        else process_people[i].status=SUSCEPTIBLE;
         process_people[i].time=0;
 
         if(process_people[i].id>=true_N){
             process_people[i].x= -1;
             process_people[i].y= -1;
+            process_people[i].vx = 0;
+            process_people[i].vy = 0;
         }
 
     }
-
     while (true)
     {
 
+
         global_timer -= t;
+
         for(int i =0;  i<chunksize; i++){
             if(process_people[i].id<true_N){
 
@@ -108,13 +126,14 @@ void infection(){
             local_statuses[i]=process_people[i].status;
         }
 
-        MPI_Gather(&x_positions, chunksize, MPI_INT, local_x_positions, chunksize, MPI_INT, 0, MPI_COMM_WORLD);
-        MPI_Gather(&y_positions, chunksize, MPI_INT, local_y_positions,chunksize, MPI_INT, 0, MPI_COMM_WORLD);
-        MPI_Gather(&statuses, chunksize, MPI_INT, local_statuses, chunksize, MPI_INT, 0, MPI_COMM_WORLD);
+        MPI_Gather(&local_x_positions, chunksize, MPI_INT, x_positions, chunksize, MPI_INT, 0, MPI_COMM_WORLD);
+        MPI_Gather(&local_y_positions, chunksize, MPI_INT, y_positions,chunksize, MPI_INT, 0, MPI_COMM_WORLD);
+        MPI_Gather(&local_statuses, chunksize, MPI_INT, statuses, chunksize, MPI_INT, 0, MPI_COMM_WORLD);
 
         MPI_Bcast(x_positions, N, MPI_INT, 0, MPI_COMM_WORLD);
         MPI_Bcast(y_positions, N, MPI_INT, 0, MPI_COMM_WORLD);
         MPI_Bcast(statuses, N, MPI_INT, 0, MPI_COMM_WORLD);
+
 
         for(int person=0; person<chunksize; person++){
             if(process_people[person].id<true_N){
@@ -123,6 +142,7 @@ void infection(){
                     if(!found && is_in_range(process_people[person], x_positions[i], y_positions[i]) && statuses[i]==INFECTED && i!=process_people[person].id){
                         if(process_people[person].status==IN_CONTACT){
                             if(process_people[person].time>=TEN_MINUTES){
+                                printf("infected\n");
                                 process_people[person].status=INFECTED;
                                 process_people[person].time=0;
                             }
@@ -155,11 +175,11 @@ void infection(){
                         if(p.status==INFECTED){
                             nation_infected[country_id]++;
                         }
-                        if(p.status==SUSCEPTIBLE || p.status==IN_CONTACT){
-                            nation_susceptible[person]++;
+                        else if(p.status==SUSCEPTIBLE || p.status==IN_CONTACT){
+                            nation_susceptible[country_id]++;
                         }
                         else{
-                            nation_immune[person]++;
+                            nation_immune[country_id]++;
                         }
                     }
                 }
@@ -173,8 +193,8 @@ void infection(){
                     }
                     int cont;
                     printf("pres 0 to stop simulation or 1 to simulate another day\n");
-                    scanf("%d",&cont);
-                    if(cont==0)return;
+                    //scanf("%d",&cont);
+                    //if(cont==0)return;
                 }
 
 
@@ -185,21 +205,21 @@ void infection(){
 }
 void move(Person* p){
 
-    if((p->x + (p->x)*t)<=0){
+    if((p->x + (p->vx)*t)<=0){
         p->vx=-p->vx;
         p->x=0;
     }
-    else if(p->x + p->x*t>=L){
+    else if(p->x + p->vx*t>=L){
         p->vx=-p->vx;
         p->x=L;
     }
     else p->x=p->x+p->vx*t;
 
-    if((p->y + p->y*t)<=0){
+    if((p->y + p->vy*t)<=0){
         p->vy=-p->vy;
         p->y=0;
     }
-    else if(p->y + p->y*t>=W){
+    else if(p->y + p->vy*t>=W){
         p->vy=-p->vy;
         p->y=W;
     }
@@ -220,18 +240,21 @@ void initialize(int number_of_persons, int infected_persons, int rectangular_wid
     N=number_of_persons;
     I=infected_persons;
     W=rectangular_width;
-    I=rectangular_length;
+    L=rectangular_length;
     w=country_width;
     l=country_length;
     v=speed;
     d=distance;
     t=timestep;
     true_N=N;
-    n_country= W/w * L/l;
+    n_country = W/w * L/l;
+    int rk;
+    int sz;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rk);
+    MPI_Comm_size(MPI_COMM_WORLD, &sz);
 
 
-    int rk = MPI_Comm_rank(MPI_COMM_WORLD, &rk);
-    int  sz = MPI_Comm_size(MPI_COMM_WORLD, &sz);
+
     /*
     if(rk==0){
         while (N%sz!=0){
@@ -241,6 +264,7 @@ void initialize(int number_of_persons, int infected_persons, int rectangular_wid
     }
     MPI_BROADCAST(chunksize, 1, MPI_INT, 0, MPI_COMM_WORLD);
     */
+
     while (N%sz!=0){
         N++;
     }
@@ -263,9 +287,12 @@ void initialize(int number_of_persons, int infected_persons, int rectangular_wid
 int compute_country_id(int x, int y){
     int country_on_x=W/w;
     int country_on_y=L/l;
-    int cy=y/country_on_x;
-    int cx=x/country_on_y;
-    return (cy*country_on_x) +cx;
+    int cy, cx;
+    if(country_on_x==1)cy=0;
+    else cy=y/(country_on_x-1);
+    if(country_on_y==1)cx=0;
+    else cx=x/(country_on_y-1);
+    return (cy*country_on_x)+cx;
 }
 
 

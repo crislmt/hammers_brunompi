@@ -10,7 +10,7 @@ typedef enum infectionStatus{
 } InfectionStatus;
 
 typedef struct person{
-    int x,y,vx,vy;
+    int x,y,vx,vy, id;
     InfectionStatus status;
     int time;
 } Person;

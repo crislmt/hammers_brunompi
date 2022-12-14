@@ -286,13 +286,7 @@ void initialize(int number_of_persons, int infected_persons, int rectangular_wid
 };
 int compute_country_id(int x, int y){
     int country_on_x=W/w;
-    int country_on_y=L/l;
-    int cy, cx;
-    if(country_on_x==1)cy=0;
-    else cy=y/(country_on_x-1);
-    if(country_on_y==1)cx=0;
-    else cx=x/(country_on_y-1);
-    return (cy*country_on_x)+cx;
+    return y/l * country_on_x + x/w;
 }
 
 

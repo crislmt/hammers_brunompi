@@ -1,7 +1,3 @@
-//
-// Created by Chris on 12/12/2022.
-//
-
 #ifndef NSDS_MPI_UTILS_H
 #define NSDS_MPI_UTILS_H
 
@@ -10,11 +6,12 @@ typedef enum infectionStatus{
 } InfectionStatus;
 
 typedef struct person{
-    int x,y,vx,vy, id;
+    int id;
+    int x,y;
+    float vx,vy;
     InfectionStatus status;
     int time;
 } Person;
-
-double distance(int, int , int, int);
+double distance(float, float , float, float);
 
 #endif //NSDS_MPI_UTILS_H

@@ -1,0 +1,585 @@
+day 1:
+Execution time: 3.905932 seconds
+for nation 0, there are 0 infected people, 4047 susceptible people, 0 immune people 
+for nation 1, there are 0 infected people, 3984 susceptible people, 0 immune people 
+for nation 2, there are 2 infected people, 3979 susceptible people, 0 immune people 
+for nation 3, there are 2 infected people, 4023 susceptible people, 0 immune people 
+for nation 4, there are 1 infected people, 4109 susceptible people, 0 immune people 
+for nation 5, there are 0 infected people, 4078 susceptible people, 0 immune people 
+for nation 6, there are 2 infected people, 4035 susceptible people, 0 immune people 
+for nation 7, there are 2 infected people, 3896 susceptible people, 0 immune people 
+for nation 8, there are 6 infected people, 3855 susceptible people, 0 immune people 
+for nation 9, there are 1 infected people, 3850 susceptible people, 0 immune people 
+in total there are 16 infected people, 39856 susceptible people, 0 immune people 
+day 2:
+Execution time: 5.635737 seconds
+for nation 0, there are 3 infected people, 4334 susceptible people, 0 immune people 
+for nation 1, there are 1 infected people, 4037 susceptible people, 0 immune people 
+for nation 2, there are 6 infected people, 3847 susceptible people, 0 immune people 
+for nation 3, there are 3 infected people, 3932 susceptible people, 0 immune people 
+for nation 4, there are 0 infected people, 4022 susceptible people, 0 immune people 
+for nation 5, there are 1 infected people, 3964 susceptible people, 0 immune people 
+for nation 6, there are 3 infected people, 3970 susceptible people, 0 immune people 
+for nation 7, there are 2 infected people, 3907 susceptible people, 0 immune people 
+for nation 8, there are 3 infected people, 3912 susceptible people, 0 immune people 
+for nation 9, there are 2 infected people, 3923 susceptible people, 0 immune people 
+in total there are 24 infected people, 39848 susceptible people, 0 immune people 
+day 3:
+Execution time: 7.106706 seconds
+for nation 0, there are 5 infected people, 4240 susceptible people, 0 immune people 
+for nation 1, there are 0 infected people, 3935 susceptible people, 0 immune people 
+for nation 2, there are 2 infected people, 3981 susceptible people, 1 immune people 
+for nation 3, there are 0 infected people, 3948 susceptible people, 1 immune people 
+for nation 4, there are 0 infected people, 3993 susceptible people, 0 immune people 
+for nation 5, there are 5 infected people, 3948 susceptible people, 1 immune people 
+for nation 6, there are 8 infected people, 3989 susceptible people, 0 immune people 
+for nation 7, there are 5 infected people, 3920 susceptible people, 0 immune people 
+for nation 8, there are 5 infected people, 3965 susceptible people, 0 immune people 
+for nation 9, there are 2 infected people, 3918 susceptible people, 0 immune people 
+in total there are 32 infected people, 39837 susceptible people, 3 immune people 
+day 4:
+Execution time: 9.916572 seconds
+for nation 0, there are 6 infected people, 4190 susceptible people, 0 immune people 
+for nation 1, there are 1 infected people, 4000 susceptible people, 0 immune people 
+for nation 2, there are 4 infected people, 4010 susceptible people, 0 immune people 
+for nation 3, there are 5 infected people, 4014 susceptible people, 0 immune people 
+for nation 4, there are 5 infected people, 3939 susceptible people, 0 immune people 
+for nation 5, there are 13 infected people, 3925 susceptible people, 0 immune people 
+for nation 6, there are 6 infected people, 3961 susceptible people, 1 immune people 
+for nation 7, there are 4 infected people, 3947 susceptible people, 1 immune people 
+for nation 8, there are 8 infected people, 4028 susceptible people, 2 immune people 
+for nation 9, there are 4 infected people, 3798 susceptible people, 0 immune people 
+in total there are 56 infected people, 39812 susceptible people, 4 immune people 
+day 5:
+Execution time: 12.748558 seconds
+for nation 0, there are 9 infected people, 4237 susceptible people, 0 immune people 
+for nation 1, there are 0 infected people, 3918 susceptible people, 0 immune people 
+for nation 2, there are 9 infected people, 3999 susceptible people, 0 immune people 
+for nation 3, there are 1 infected people, 4041 susceptible people, 0 immune people 
+for nation 4, there are 3 infected people, 4087 susceptible people, 1 immune people 
+for nation 5, there are 6 infected people, 3922 susceptible people, 0 immune people 
+for nation 6, there are 10 infected people, 3971 susceptible people, 1 immune people 
+for nation 7, there are 17 infected people, 3898 susceptible people, 2 immune people 
+for nation 8, there are 17 infected people, 3961 susceptible people, 2 immune people 
+for nation 9, there are 13 infected people, 3746 susceptible people, 1 immune people 
+in total there are 85 infected people, 39780 susceptible people, 7 immune people 
+day 6:
+Execution time: 16.196529 seconds
+for nation 0, there are 11 infected people, 4341 susceptible people, 0 immune people 
+for nation 1, there are 1 infected people, 3908 susceptible people, 0 immune people 
+for nation 2, there are 12 infected people, 4031 susceptible people, 1 immune people 
+for nation 3, there are 12 infected people, 4047 susceptible people, 0 immune people 
+for nation 4, there are 7 infected people, 3896 susceptible people, 0 immune people 
+for nation 5, there are 16 infected people, 3906 susceptible people, 0 immune people 
+for nation 6, there are 18 infected people, 3999 susceptible people, 2 immune people 
+for nation 7, there are 20 infected people, 3861 susceptible people, 2 immune people 
+for nation 8, there are 18 infected people, 3865 susceptible people, 1 immune people 
+for nation 9, there are 7 infected people, 3889 susceptible people, 1 immune people 
+in total there are 122 infected people, 39743 susceptible people, 7 immune people 
+day 7:
+Execution time: 24.260878 seconds
+for nation 0, there are 17 infected people, 4299 susceptible people, 1 immune people 
+for nation 1, there are 14 infected people, 3904 susceptible people, 0 immune people 
+for nation 2, there are 16 infected people, 3994 susceptible people, 0 immune people 
+for nation 3, there are 21 infected people, 3999 susceptible people, 1 immune people 
+for nation 4, there are 17 infected people, 4020 susceptible people, 0 immune people 
+for nation 5, there are 26 infected people, 3937 susceptible people, 2 immune people 
+for nation 6, there are 15 infected people, 3955 susceptible people, 1 immune people 
+for nation 7, there are 30 infected people, 3825 susceptible people, 0 immune people 
+for nation 8, there are 32 infected people, 3888 susceptible people, 1 immune people 
+for nation 9, there are 14 infected people, 3841 susceptible people, 2 immune people 
+in total there are 202 infected people, 39662 susceptible people, 8 immune people 
+day 8:
+Execution time: 39.581928 seconds
+for nation 0, there are 32 infected people, 4186 susceptible people, 1 immune people 
+for nation 1, there are 20 infected people, 3930 susceptible people, 0 immune people 
+for nation 2, there are 34 infected people, 3942 susceptible people, 0 immune people 
+for nation 3, there are 31 infected people, 4034 susceptible people, 3 immune people 
+for nation 4, there are 27 infected people, 3995 susceptible people, 1 immune people 
+for nation 5, there are 61 infected people, 3902 susceptible people, 1 immune people 
+for nation 6, there are 21 infected people, 4035 susceptible people, 1 immune people 
+for nation 7, there are 35 infected people, 3727 susceptible people, 0 immune people 
+for nation 8, there are 50 infected people, 3948 susceptible people, 0 immune people 
+for nation 9, there are 29 infected people, 3825 susceptible people, 1 immune people 
+in total there are 340 infected people, 39524 susceptible people, 8 immune people 
+day 9:
+Execution time: 61.807465 seconds
+for nation 0, there are 66 infected people, 4218 susceptible people, 1 immune people 
+for nation 1, there are 17 infected people, 3882 susceptible people, 0 immune people 
+for nation 2, there are 72 infected people, 3796 susceptible people, 0 immune people 
+for nation 3, there are 44 infected people, 4037 susceptible people, 2 immune people 
+for nation 4, there are 34 infected people, 3972 susceptible people, 1 immune people 
+for nation 5, there are 62 infected people, 3793 susceptible people, 1 immune people 
+for nation 6, there are 39 infected people, 4053 susceptible people, 1 immune people 
+for nation 7, there are 66 infected people, 3890 susceptible people, 3 immune people 
+for nation 8, there are 90 infected people, 3890 susceptible people, 0 immune people 
+for nation 9, there are 69 infected people, 3772 susceptible people, 1 immune people 
+in total there are 559 infected people, 39303 susceptible people, 10 immune people 
+day 10:
+Execution time: 51.716625 seconds
+for nation 0, there are 96 infected people, 4144 susceptible people, 0 immune people 
+for nation 1, there are 38 infected people, 3916 susceptible people, 0 immune people 
+for nation 2, there are 89 infected people, 3856 susceptible people, 2 immune people 
+for nation 3, there are 81 infected people, 4004 susceptible people, 1 immune people 
+for nation 4, there are 65 infected people, 3861 susceptible people, 1 immune people 
+for nation 5, there are 137 infected people, 3775 susceptible people, 2 immune people 
+for nation 6, there are 77 infected people, 3929 susceptible people, 1 immune people 
+for nation 7, there are 104 infected people, 3744 susceptible people, 1 immune people 
+for nation 8, there are 125 infected people, 3852 susceptible people, 0 immune people 
+for nation 9, there are 101 infected people, 3868 susceptible people, 2 immune people 
+in total there are 913 infected people, 38949 susceptible people, 10 immune people 
+day 11:
+Execution time: 50.713543 seconds
+for nation 0, there are 163 infected people, 4114 susceptible people, 1 immune people 
+for nation 1, there are 94 infected people, 4002 susceptible people, 1 immune people 
+for nation 2, there are 121 infected people, 3825 susceptible people, 1 immune people 
+for nation 3, there are 114 infected people, 3792 susceptible people, 0 immune people 
+for nation 4, there are 133 infected people, 3779 susceptible people, 1 immune people 
+for nation 5, there are 190 infected people, 3817 susceptible people, 3 immune people 
+for nation 6, there are 102 infected people, 3838 susceptible people, 2 immune people 
+for nation 7, there are 183 infected people, 3705 susceptible people, 3 immune people 
+for nation 8, there are 210 infected people, 3774 susceptible people, 2 immune people 
+for nation 9, there are 127 infected people, 3773 susceptible people, 2 immune people 
+in total there are 1437 infected people, 38419 susceptible people, 16 immune people 
+day 12:
+Execution time: 52.780390 seconds
+for nation 0, there are 251 infected people, 3880 susceptible people, 7 immune people 
+for nation 1, there are 175 infected people, 3968 susceptible people, 2 immune people 
+for nation 2, there are 216 infected people, 3699 susceptible people, 5 immune people 
+for nation 3, there are 189 infected people, 3826 susceptible people, 0 immune people 
+for nation 4, there are 197 infected people, 3782 susceptible people, 1 immune people 
+for nation 5, there are 383 infected people, 3708 susceptible people, 0 immune people 
+for nation 6, there are 199 infected people, 3801 susceptible people, 2 immune people 
+for nation 7, there are 257 infected people, 3633 susceptible people, 4 immune people 
+for nation 8, there are 333 infected people, 3607 susceptible people, 2 immune people 
+for nation 9, there are 219 infected people, 3525 susceptible people, 1 immune people 
+in total there are 2419 infected people, 37429 susceptible people, 24 immune people 
+day 13:
+Execution time: 24.454382 seconds
+for nation 0, there are 4282 infected people, 1 susceptible people, 5 immune people 
+for nation 1, there are 4079 infected people, 0 susceptible people, 2 immune people 
+for nation 2, there are 3929 infected people, 1 susceptible people, 3 immune people 
+for nation 3, there are 3969 infected people, 1 susceptible people, 3 immune people 
+for nation 4, there are 3934 infected people, 1 susceptible people, 2 immune people 
+for nation 5, there are 4021 infected people, 0 susceptible people, 0 immune people 
+for nation 6, there are 3939 infected people, 0 susceptible people, 4 immune people 
+for nation 7, there are 3954 infected people, 0 susceptible people, 4 immune people 
+for nation 8, there are 3908 infected people, 3 susceptible people, 5 immune people 
+for nation 9, there are 3818 infected people, 0 susceptible people, 4 immune people 
+in total there are 39833 infected people, 7 susceptible people, 32 immune people 
+day 14:
+Execution time: 2.897464 seconds
+for nation 0, there are 4342 infected people, 0 susceptible people, 7 immune people 
+for nation 1, there are 3889 infected people, 0 susceptible people, 4 immune people 
+for nation 2, there are 4049 infected people, 0 susceptible people, 6 immune people 
+for nation 3, there are 3932 infected people, 1 susceptible people, 7 immune people 
+for nation 4, there are 3997 infected people, 0 susceptible people, 3 immune people 
+for nation 5, there are 3949 infected people, 0 susceptible people, 8 immune people 
+for nation 6, there are 3962 infected people, 0 susceptible people, 3 immune people 
+for nation 7, there are 3839 infected people, 1 susceptible people, 4 immune people 
+for nation 8, there are 3945 infected people, 0 susceptible people, 8 immune people 
+for nation 9, there are 3910 infected people, 0 susceptible people, 6 immune people 
+in total there are 39814 infected people, 2 susceptible people, 56 immune people 
+day 15:
+Execution time: 2.781788 seconds
+for nation 0, there are 4269 infected people, 0 susceptible people, 11 immune people 
+for nation 1, there are 4025 infected people, 0 susceptible people, 3 immune people 
+for nation 2, there are 4005 infected people, 0 susceptible people, 11 immune people 
+for nation 3, there are 3976 infected people, 0 susceptible people, 10 immune people 
+for nation 4, there are 3918 infected people, 0 susceptible people, 6 immune people 
+for nation 5, there are 3915 infected people, 0 susceptible people, 7 immune people 
+for nation 6, there are 3891 infected people, 0 susceptible people, 6 immune people 
+for nation 7, there are 3923 infected people, 0 susceptible people, 6 immune people 
+for nation 8, there are 3878 infected people, 0 susceptible people, 15 immune people 
+for nation 9, there are 3987 infected people, 0 susceptible people, 10 immune people 
+in total there are 39787 infected people, 0 susceptible people, 85 immune people 
+day 16:
+Execution time: 2.774411 seconds
+for nation 0, there are 4313 infected people, 0 susceptible people, 11 immune people 
+for nation 1, there are 3990 infected people, 0 susceptible people, 7 immune people 
+for nation 2, there are 3948 infected people, 0 susceptible people, 15 immune people 
+for nation 3, there are 3950 infected people, 0 susceptible people, 14 immune people 
+for nation 4, there are 4003 infected people, 0 susceptible people, 7 immune people 
+for nation 5, there are 3846 infected people, 0 susceptible people, 18 immune people 
+for nation 6, there are 3949 infected people, 0 susceptible people, 9 immune people 
+for nation 7, there are 3963 infected people, 0 susceptible people, 13 immune people 
+for nation 8, there are 3972 infected people, 0 susceptible people, 15 immune people 
+for nation 9, there are 3816 infected people, 0 susceptible people, 13 immune people 
+in total there are 39750 infected people, 0 susceptible people, 122 immune people 
+day 17:
+Execution time: 2.423925 seconds
+for nation 0, there are 4328 infected people, 0 susceptible people, 29 immune people 
+for nation 1, there are 3961 infected people, 0 susceptible people, 15 immune people 
+for nation 2, there are 3940 infected people, 0 susceptible people, 13 immune people 
+for nation 3, there are 3942 infected people, 0 susceptible people, 13 immune people 
+for nation 4, there are 3971 infected people, 0 susceptible people, 23 immune people 
+for nation 5, there are 3816 infected people, 0 susceptible people, 21 immune people 
+for nation 6, there are 3972 infected people, 0 susceptible people, 12 immune people 
+for nation 7, there are 3942 infected people, 0 susceptible people, 20 immune people 
+for nation 8, there are 3953 infected people, 0 susceptible people, 39 immune people 
+for nation 9, there are 3845 infected people, 0 susceptible people, 17 immune people 
+in total there are 39670 infected people, 0 susceptible people, 202 immune people 
+day 18:
+Execution time: 2.747689 seconds
+for nation 0, there are 4298 infected people, 0 susceptible people, 35 immune people 
+for nation 1, there are 3855 infected people, 0 susceptible people, 29 immune people 
+for nation 2, there are 3914 infected people, 0 susceptible people, 23 immune people 
+for nation 3, there are 3919 infected people, 0 susceptible people, 29 immune people 
+for nation 4, there are 4003 infected people, 0 susceptible people, 26 immune people 
+for nation 5, there are 3874 infected people, 0 susceptible people, 53 immune people 
+for nation 6, there are 3963 infected people, 0 susceptible people, 27 immune people 
+for nation 7, there are 3893 infected people, 0 susceptible people, 32 immune people 
+for nation 8, there are 3913 infected people, 0 susceptible people, 55 immune people 
+for nation 9, there are 3900 infected people, 0 susceptible people, 31 immune people 
+in total there are 39532 infected people, 0 susceptible people, 340 immune people 
+day 19:
+Execution time: 3.041172 seconds
+for nation 0, there are 4245 infected people, 0 susceptible people, 74 immune people 
+for nation 1, there are 3932 infected people, 0 susceptible people, 42 immune people 
+for nation 2, there are 3911 infected people, 0 susceptible people, 51 immune people 
+for nation 3, there are 3926 infected people, 0 susceptible people, 47 immune people 
+for nation 4, there are 3958 infected people, 0 susceptible people, 45 immune people 
+for nation 5, there are 3782 infected people, 0 susceptible people, 67 immune people 
+for nation 6, there are 3889 infected people, 0 susceptible people, 51 immune people 
+for nation 7, there are 3992 infected people, 0 susceptible people, 53 immune people 
+for nation 8, there are 3904 infected people, 0 susceptible people, 81 immune people 
+for nation 9, there are 3774 infected people, 0 susceptible people, 48 immune people 
+in total there are 39313 infected people, 0 susceptible people, 559 immune people 
+day 20:
+Execution time: 3.557926 seconds
+for nation 0, there are 4176 infected people, 0 susceptible people, 116 immune people 
+for nation 1, there are 3820 infected people, 0 susceptible people, 68 immune people 
+for nation 2, there are 3942 infected people, 0 susceptible people, 89 immune people 
+for nation 3, there are 3926 infected people, 0 susceptible people, 89 immune people 
+for nation 4, there are 3896 infected people, 0 susceptible people, 66 immune people 
+for nation 5, there are 3885 infected people, 0 susceptible people, 109 immune people 
+for nation 6, there are 3899 infected people, 0 susceptible people, 80 immune people 
+for nation 7, there are 3815 infected people, 0 susceptible people, 102 immune people 
+for nation 8, there are 3766 infected people, 0 susceptible people, 126 immune people 
+for nation 9, there are 3834 infected people, 0 susceptible people, 68 immune people 
+in total there are 38959 infected people, 0 susceptible people, 913 immune people 
+day 21:
+Execution time: 4.540515 seconds
+for nation 0, there are 4101 infected people, 0 susceptible people, 169 immune people 
+for nation 1, there are 3882 infected people, 0 susceptible people, 107 immune people 
+for nation 2, there are 3827 infected people, 0 susceptible people, 141 immune people 
+for nation 3, there are 3884 infected people, 0 susceptible people, 153 immune people 
+for nation 4, there are 3856 infected people, 0 susceptible people, 123 immune people 
+for nation 5, there are 3805 infected people, 0 susceptible people, 161 immune people 
+for nation 6, there are 3741 infected people, 0 susceptible people, 124 immune people 
+for nation 7, there are 3795 infected people, 0 susceptible people, 158 immune people 
+for nation 8, there are 3768 infected people, 0 susceptible people, 187 immune people 
+for nation 9, there are 3776 infected people, 0 susceptible people, 114 immune people 
+in total there are 38435 infected people, 0 susceptible people, 1437 immune people 
+day 22:
+Execution time: 5.963992 seconds
+for nation 0, there are 3931 infected people, 0 susceptible people, 265 immune people 
+for nation 1, there are 3811 infected people, 0 susceptible people, 183 immune people 
+for nation 2, there are 3854 infected people, 0 susceptible people, 197 immune people 
+for nation 3, there are 3721 infected people, 0 susceptible people, 266 immune people 
+for nation 4, there are 3688 infected people, 0 susceptible people, 198 immune people 
+for nation 5, there are 3656 infected people, 0 susceptible people, 302 immune people 
+for nation 6, there are 3746 infected people, 0 susceptible people, 221 immune people 
+for nation 7, there are 3665 infected people, 0 susceptible people, 263 immune people 
+for nation 8, there are 3700 infected people, 0 susceptible people, 307 immune people 
+for nation 9, there are 3681 infected people, 0 susceptible people, 217 immune people 
+in total there are 37453 infected people, 0 susceptible people, 2419 immune people 
+day 23:
+Execution time: 10.837853 seconds
+for nation 0, there are 4 infected people, 0 susceptible people, 4257 immune people 
+for nation 1, there are 2 infected people, 0 susceptible people, 3930 immune people 
+for nation 2, there are 2 infected people, 0 susceptible people, 3934 immune people 
+for nation 3, there are 6 infected people, 0 susceptible people, 3979 immune people 
+for nation 4, there are 5 infected people, 0 susceptible people, 4009 immune people 
+for nation 5, there are 4 infected people, 0 susceptible people, 3879 immune people 
+for nation 6, there are 4 infected people, 0 susceptible people, 3947 immune people 
+for nation 7, there are 8 infected people, 0 susceptible people, 3939 immune people 
+for nation 8, there are 3 infected people, 0 susceptible people, 4082 immune people 
+for nation 9, there are 1 infected people, 0 susceptible people, 3877 immune people 
+in total there are 39 infected people, 0 susceptible people, 39833 immune people 
+day 24:
+Execution time: 7.934127 seconds
+for nation 0, there are 4 infected people, 2 susceptible people, 4232 immune people 
+for nation 1, there are 4 infected people, 0 susceptible people, 3953 immune people 
+for nation 2, there are 3 infected people, 3 susceptible people, 3993 immune people 
+for nation 3, there are 3 infected people, 2 susceptible people, 3926 immune people 
+for nation 4, there are 5 infected people, 4 susceptible people, 3901 immune people 
+for nation 5, there are 4 infected people, 4 susceptible people, 3905 immune people 
+for nation 6, there are 2 infected people, 0 susceptible people, 3980 immune people 
+for nation 7, there are 4 infected people, 3 susceptible people, 4030 immune people 
+for nation 8, there are 1 infected people, 6 susceptible people, 4032 immune people 
+for nation 9, there are 3 infected people, 1 susceptible people, 3862 immune people 
+in total there are 33 infected people, 25 susceptible people, 39814 immune people 
+day 25:
+Execution time: 6.707440 seconds
+for nation 0, there are 3 infected people, 7 susceptible people, 4227 immune people 
+for nation 1, there are 3 infected people, 3 susceptible people, 3931 immune people 
+for nation 2, there are 4 infected people, 8 susceptible people, 3983 immune people 
+for nation 3, there are 1 infected people, 5 susceptible people, 3977 immune people 
+for nation 4, there are 2 infected people, 3 susceptible people, 3951 immune people 
+for nation 5, there are 2 infected people, 12 susceptible people, 3955 immune people 
+for nation 6, there are 3 infected people, 1 susceptible people, 3989 immune people 
+for nation 7, there are 1 infected people, 8 susceptible people, 3907 immune people 
+for nation 8, there are 5 infected people, 7 susceptible people, 4022 immune people 
+for nation 9, there are 4 infected people, 3 susceptible people, 3845 immune people 
+in total there are 28 infected people, 57 susceptible people, 39787 immune people 
+day 26:
+Execution time: 6.718628 seconds
+for nation 0, there are 5 infected people, 7 susceptible people, 4401 immune people 
+for nation 1, there are 1 infected people, 6 susceptible people, 3906 immune people 
+for nation 2, there are 3 infected people, 8 susceptible people, 4040 immune people 
+for nation 3, there are 0 infected people, 13 susceptible people, 3938 immune people 
+for nation 4, there are 4 infected people, 3 susceptible people, 3949 immune people 
+for nation 5, there are 3 infected people, 16 susceptible people, 3963 immune people 
+for nation 6, there are 2 infected people, 6 susceptible people, 3909 immune people 
+for nation 7, there are 4 infected people, 11 susceptible people, 3894 immune people 
+for nation 8, there are 3 infected people, 14 susceptible people, 3935 immune people 
+for nation 9, there are 3 infected people, 10 susceptible people, 3815 immune people 
+in total there are 28 infected people, 94 susceptible people, 39750 immune people 
+day 27:
+Execution time: 6.491038 seconds
+for nation 0, there are 4 infected people, 23 susceptible people, 4319 immune people 
+for nation 1, there are 3 infected people, 8 susceptible people, 3947 immune people 
+for nation 2, there are 1 infected people, 19 susceptible people, 3984 immune people 
+for nation 3, there are 1 infected people, 23 susceptible people, 3852 immune people 
+for nation 4, there are 2 infected people, 16 susceptible people, 3965 immune people 
+for nation 5, there are 5 infected people, 20 susceptible people, 3957 immune people 
+for nation 6, there are 2 infected people, 11 susceptible people, 3885 immune people 
+for nation 7, there are 2 infected people, 13 susceptible people, 3952 immune people 
+for nation 8, there are 3 infected people, 24 susceptible people, 3959 immune people 
+for nation 9, there are 4 infected people, 18 susceptible people, 3850 immune people 
+in total there are 27 infected people, 175 susceptible people, 39670 immune people 
+day 28:
+Execution time: 6.554684 seconds
+for nation 0, there are 2 infected people, 30 susceptible people, 4342 immune people 
+for nation 1, there are 3 infected people, 19 susceptible people, 3910 immune people 
+for nation 2, there are 2 infected people, 27 susceptible people, 3948 immune people 
+for nation 3, there are 4 infected people, 35 susceptible people, 3963 immune people 
+for nation 4, there are 2 infected people, 31 susceptible people, 3870 immune people 
+for nation 5, there are 5 infected people, 48 susceptible people, 3865 immune people 
+for nation 6, there are 3 infected people, 27 susceptible people, 3874 immune people 
+for nation 7, there are 2 infected people, 27 susceptible people, 3910 immune people 
+for nation 8, there are 2 infected people, 44 susceptible people, 3940 immune people 
+for nation 9, there are 2 infected people, 25 susceptible people, 3910 immune people 
+in total there are 27 infected people, 313 susceptible people, 39532 immune people 
+day 29:
+Execution time: 6.504951 seconds
+for nation 0, there are 2 infected people, 64 susceptible people, 4219 immune people 
+for nation 1, there are 3 infected people, 26 susceptible people, 3835 immune people 
+for nation 2, there are 1 infected people, 45 susceptible people, 3967 immune people 
+for nation 3, there are 5 infected people, 50 susceptible people, 3869 immune people 
+for nation 4, there are 3 infected people, 41 susceptible people, 3995 immune people 
+for nation 5, there are 1 infected people, 72 susceptible people, 3892 immune people 
+for nation 6, there are 2 infected people, 55 susceptible people, 3860 immune people 
+for nation 7, there are 3 infected people, 56 susceptible people, 3915 immune people 
+for nation 8, there are 3 infected people, 69 susceptible people, 3974 immune people 
+for nation 9, there are 2 infected people, 56 susceptible people, 3787 immune people 
+in total there are 25 infected people, 534 susceptible people, 39313 immune people 
+day 30:
+Execution time: 6.345288 seconds
+for nation 0, there are 2 infected people, 87 susceptible people, 4240 immune people 
+for nation 1, there are 2 infected people, 73 susceptible people, 3822 immune people 
+for nation 2, there are 3 infected people, 79 susceptible people, 3970 immune people 
+for nation 3, there are 4 infected people, 91 susceptible people, 3815 immune people 
+for nation 4, there are 4 infected people, 73 susceptible people, 3897 immune people 
+for nation 5, there are 3 infected people, 122 susceptible people, 3929 immune people 
+for nation 6, there are 2 infected people, 76 susceptible people, 3819 immune people 
+for nation 7, there are 2 infected people, 86 susceptible people, 3837 immune people 
+for nation 8, there are 1 infected people, 123 susceptible people, 3877 immune people 
+for nation 9, there are 2 infected people, 78 susceptible people, 3753 immune people 
+in total there are 25 infected people, 888 susceptible people, 38959 immune people 
+day 31:
+Execution time: 4.888147 seconds
+for nation 0, there are 3 infected people, 138 susceptible people, 4119 immune people 
+for nation 1, there are 2 infected people, 119 susceptible people, 3827 immune people 
+for nation 2, there are 3 infected people, 121 susceptible people, 3829 immune people 
+for nation 3, there are 2 infected people, 150 susceptible people, 3820 immune people 
+for nation 4, there are 2 infected people, 128 susceptible people, 3816 immune people 
+for nation 5, there are 2 infected people, 187 susceptible people, 3934 immune people 
+for nation 6, there are 3 infected people, 123 susceptible people, 3786 immune people 
+for nation 7, there are 0 infected people, 154 susceptible people, 3826 immune people 
+for nation 8, there are 2 infected people, 182 susceptible people, 3784 immune people 
+for nation 9, there are 1 infected people, 115 susceptible people, 3694 immune people 
+in total there are 20 infected people, 1417 susceptible people, 38435 immune people 
+day 32:
+Execution time: 3.161929 seconds
+for nation 0, there are 1 infected people, 251 susceptible people, 4108 immune people 
+for nation 1, there are 4 infected people, 174 susceptible people, 3737 immune people 
+for nation 2, there are 3 infected people, 221 susceptible people, 3758 immune people 
+for nation 3, there are 2 infected people, 272 susceptible people, 3697 immune people 
+for nation 4, there are 1 infected people, 203 susceptible people, 3732 immune people 
+for nation 5, there are 0 infected people, 281 susceptible people, 3780 immune people 
+for nation 6, there are 0 infected people, 223 susceptible people, 3682 immune people 
+for nation 7, there are 0 infected people, 266 susceptible people, 3686 immune people 
+for nation 8, there are 1 infected people, 281 susceptible people, 3660 immune people 
+for nation 9, there are 0 infected people, 235 susceptible people, 3613 immune people 
+in total there are 12 infected people, 2407 susceptible people, 37453 immune people 
+day 33:
+Execution time: 0.493947 seconds
+for nation 0, there are 0 infected people, 4346 susceptible people, 7 immune people 
+for nation 1, there are 1 infected people, 3925 susceptible people, 4 immune people 
+for nation 2, there are 0 infected people, 4033 susceptible people, 1 immune people 
+for nation 3, there are 0 infected people, 3895 susceptible people, 4 immune people 
+for nation 4, there are 0 infected people, 3846 susceptible people, 5 immune people 
+for nation 5, there are 0 infected people, 4017 susceptible people, 2 immune people 
+for nation 6, there are 0 infected people, 3996 susceptible people, 1 immune people 
+for nation 7, there are 0 infected people, 3859 susceptible people, 3 immune people 
+for nation 8, there are 0 infected people, 4008 susceptible people, 6 immune people 
+for nation 9, there are 0 infected people, 3907 susceptible people, 6 immune people 
+in total there are 1 infected people, 39832 susceptible people, 39 immune people 
+day 34:
+Execution time: 0.387578 seconds
+for nation 0, there are 0 infected people, 4337 susceptible people, 3 immune people 
+for nation 1, there are 0 infected people, 3939 susceptible people, 3 immune people 
+for nation 2, there are 0 infected people, 4018 susceptible people, 4 immune people 
+for nation 3, there are 0 infected people, 3872 susceptible people, 6 immune people 
+for nation 4, there are 0 infected people, 3850 susceptible people, 1 immune people 
+for nation 5, there are 0 infected people, 4015 susceptible people, 2 immune people 
+for nation 6, there are 0 infected people, 3934 susceptible people, 5 immune people 
+for nation 7, there are 0 infected people, 4029 susceptible people, 4 immune people 
+for nation 8, there are 0 infected people, 3958 susceptible people, 2 immune people 
+for nation 9, there are 1 infected people, 3886 susceptible people, 3 immune people 
+in total there are 1 infected people, 39838 susceptible people, 33 immune people 
+day 35:
+Execution time: 0.396434 seconds
+for nation 0, there are 0 infected people, 4314 susceptible people, 3 immune people 
+for nation 1, there are 0 infected people, 3873 susceptible people, 4 immune people 
+for nation 2, there are 0 infected people, 4073 susceptible people, 2 immune people 
+for nation 3, there are 0 infected people, 3894 susceptible people, 3 immune people 
+for nation 4, there are 0 infected people, 3903 susceptible people, 0 immune people 
+for nation 5, there are 0 infected people, 4026 susceptible people, 3 immune people 
+for nation 6, there are 1 infected people, 3996 susceptible people, 2 immune people 
+for nation 7, there are 0 infected people, 3964 susceptible people, 3 immune people 
+for nation 8, there are 0 infected people, 3969 susceptible people, 4 immune people 
+for nation 9, there are 0 infected people, 3831 susceptible people, 4 immune people 
+in total there are 1 infected people, 39843 susceptible people, 28 immune people 
+day 36:
+Execution time: 0.475157 seconds
+for nation 0, there are 0 infected people, 4345 susceptible people, 2 immune people 
+for nation 1, there are 0 infected people, 4007 susceptible people, 4 immune people 
+for nation 2, there are 0 infected people, 3925 susceptible people, 3 immune people 
+for nation 3, there are 0 infected people, 3983 susceptible people, 5 immune people 
+for nation 4, there are 0 infected people, 3992 susceptible people, 2 immune people 
+for nation 5, there are 0 infected people, 4014 susceptible people, 2 immune people 
+for nation 6, there are 0 infected people, 3856 susceptible people, 2 immune people 
+for nation 7, there are 0 infected people, 3930 susceptible people, 4 immune people 
+for nation 8, there are 0 infected people, 3957 susceptible people, 2 immune people 
+for nation 9, there are 1 infected people, 3834 susceptible people, 2 immune people 
+in total there are 1 infected people, 39843 susceptible people, 28 immune people 
+day 37:
+Execution time: 0.793638 seconds
+for nation 0, there are 0 infected people, 4253 susceptible people, 2 immune people 
+for nation 1, there are 0 infected people, 3930 susceptible people, 3 immune people 
+for nation 2, there are 0 infected people, 3963 susceptible people, 4 immune people 
+for nation 3, there are 0 infected people, 4040 susceptible people, 3 immune people 
+for nation 4, there are 2 infected people, 4024 susceptible people, 1 immune people 
+for nation 5, there are 0 infected people, 3897 susceptible people, 2 immune people 
+for nation 6, there are 0 infected people, 3982 susceptible people, 1 immune people 
+for nation 7, there are 0 infected people, 3925 susceptible people, 1 immune people 
+for nation 8, there are 0 infected people, 4007 susceptible people, 3 immune people 
+for nation 9, there are 0 infected people, 3822 susceptible people, 7 immune people 
+in total there are 2 infected people, 39843 susceptible people, 27 immune people 
+day 38:
+Execution time: 0.874723 seconds
+for nation 0, there are 0 infected people, 4329 susceptible people, 5 immune people 
+for nation 1, there are 0 infected people, 4002 susceptible people, 5 immune people 
+for nation 2, there are 1 infected people, 4014 susceptible people, 2 immune people 
+for nation 3, there are 0 infected people, 4048 susceptible people, 2 immune people 
+for nation 4, there are 2 infected people, 3937 susceptible people, 1 immune people 
+for nation 5, there are 0 infected people, 3923 susceptible people, 1 immune people 
+for nation 6, there are 0 infected people, 3966 susceptible people, 2 immune people 
+for nation 7, there are 0 infected people, 3893 susceptible people, 3 immune people 
+for nation 8, there are 0 infected people, 3911 susceptible people, 5 immune people 
+for nation 9, there are 0 infected people, 3819 susceptible people, 1 immune people 
+in total there are 3 infected people, 39842 susceptible people, 27 immune people 
+day 39:
+Execution time: 1.142550 seconds
+for nation 0, there are 0 infected people, 4311 susceptible people, 2 immune people 
+for nation 1, there are 0 infected people, 3977 susceptible people, 6 immune people 
+for nation 2, there are 0 infected people, 3942 susceptible people, 2 immune people 
+for nation 3, there are 0 infected people, 3985 susceptible people, 2 immune people 
+for nation 4, there are 2 infected people, 3940 susceptible people, 1 immune people 
+for nation 5, there are 0 infected people, 4042 susceptible people, 6 immune people 
+for nation 6, there are 0 infected people, 3947 susceptible people, 2 immune people 
+for nation 7, there are 1 infected people, 3890 susceptible people, 1 immune people 
+for nation 8, there are 0 infected people, 3969 susceptible people, 2 immune people 
+for nation 9, there are 1 infected people, 3840 susceptible people, 1 immune people 
+in total there are 4 infected people, 39843 susceptible people, 25 immune people 
+day 40:
+Execution time: 1.521123 seconds
+for nation 0, there are 0 infected people, 4406 susceptible people, 3 immune people 
+for nation 1, there are 0 infected people, 3968 susceptible people, 5 immune people 
+for nation 2, there are 4 infected people, 4023 susceptible people, 2 immune people 
+for nation 3, there are 0 infected people, 3896 susceptible people, 4 immune people 
+for nation 4, there are 0 infected people, 3931 susceptible people, 2 immune people 
+for nation 5, there are 0 infected people, 3916 susceptible people, 5 immune people 
+for nation 6, there are 0 infected people, 3931 susceptible people, 2 immune people 
+for nation 7, there are 1 infected people, 3879 susceptible people, 0 immune people 
+for nation 8, there are 0 infected people, 4041 susceptible people, 1 immune people 
+for nation 9, there are 1 infected people, 3850 susceptible people, 1 immune people 
+in total there are 6 infected people, 39841 susceptible people, 25 immune people 
+day 41:
+Execution time: 2.477167 seconds
+for nation 0, there are 0 infected people, 4312 susceptible people, 1 immune people 
+for nation 1, there are 0 infected people, 3984 susceptible people, 2 immune people 
+for nation 2, there are 4 infected people, 3940 susceptible people, 1 immune people 
+for nation 3, there are 0 infected people, 3942 susceptible people, 2 immune people 
+for nation 4, there are 0 infected people, 3943 susceptible people, 2 immune people 
+for nation 5, there are 0 infected people, 4001 susceptible people, 4 immune people 
+for nation 6, there are 0 infected people, 3948 susceptible people, 1 immune people 
+for nation 7, there are 5 infected people, 3848 susceptible people, 1 immune people 
+for nation 8, there are 0 infected people, 3980 susceptible people, 4 immune people 
+for nation 9, there are 1 infected people, 3944 susceptible people, 2 immune people 
+in total there are 10 infected people, 39842 susceptible people, 20 immune people 
+day 42:
+Execution time: 4.982416 seconds
+for nation 0, there are 5 infected people, 4216 susceptible people, 2 immune people 
+for nation 1, there are 0 infected people, 4025 susceptible people, 3 immune people 
+for nation 2, there are 13 infected people, 3993 susceptible people, 1 immune people 
+for nation 3, there are 0 infected people, 3936 susceptible people, 3 immune people 
+for nation 4, there are 0 infected people, 4031 susceptible people, 1 immune people 
+for nation 5, there are 1 infected people, 3983 susceptible people, 1 immune people 
+for nation 6, there are 0 infected people, 3919 susceptible people, 1 immune people 
+for nation 7, there are 3 infected people, 3963 susceptible people, 0 immune people 
+for nation 8, there are 0 infected people, 3939 susceptible people, 0 immune people 
+for nation 9, there are 0 infected people, 3833 susceptible people, 0 immune people 
+in total there are 22 infected people, 39838 susceptible people, 12 immune people 
+day 43:
+Execution time: 7.222648 seconds
+for nation 0, there are 10 infected people, 4305 susceptible people, 0 immune people 
+for nation 1, there are 0 infected people, 3971 susceptible people, 0 immune people 
+for nation 2, there are 12 infected people, 3957 susceptible people, 0 immune people 
+for nation 3, there are 0 infected people, 3893 susceptible people, 0 immune people 
+for nation 4, there are 4 infected people, 4081 susceptible people, 0 immune people 
+for nation 5, there are 4 infected people, 3968 susceptible people, 0 immune people 
+for nation 6, there are 0 infected people, 3907 susceptible people, 1 immune people 
+for nation 7, there are 4 infected people, 3889 susceptible people, 0 immune people 
+for nation 8, there are 0 infected people, 3993 susceptible people, 0 immune people 
+for nation 9, there are 0 infected people, 3873 susceptible people, 0 immune people 
+in total there are 34 infected people, 39837 susceptible people, 1 immune people 
+day 44:
+Execution time: 9.783077 seconds
+for nation 0, there are 15 infected people, 4358 susceptible people, 0 immune people 
+for nation 1, there are 0 infected people, 3955 susceptible people, 1 immune people 
+for nation 2, there are 11 infected people, 3910 susceptible people, 0 immune people 
+for nation 3, there are 0 infected people, 4006 susceptible people, 0 immune people 
+for nation 4, there are 7 infected people, 4002 susceptible people, 0 immune people 
+for nation 5, there are 4 infected people, 4046 susceptible people, 0 immune people 
+for nation 6, there are 2 infected people, 3934 susceptible people, 0 immune people 
+for nation 7, there are 11 infected people, 3829 susceptible people, 0 immune people 
+for nation 8, there are 3 infected people, 3936 susceptible people, 0 immune people 
+for nation 9, there are 1 infected people, 3841 susceptible people, 0 immune people 
+in total there are 54 infected people, 39817 susceptible people, 1 immune people 
+day 45:
+Execution time: 13.275703 seconds
+for nation 0, there are 12 infected people, 4343 susceptible people, 0 immune people 
+for nation 1, there are 6 infected people, 3995 susceptible people, 0 immune people 
+for nation 2, there are 19 infected people, 3931 susceptible people, 0 immune people 
+for nation 3, there are 7 infected people, 3992 susceptible people, 0 immune people 
+for nation 4, there are 9 infected people, 3920 susceptible people, 1 immune people 
+for nation 5, there are 20 infected people, 4005 susceptible people, 0 immune people 
+for nation 6, there are 1 infected people, 3937 susceptible people, 0 immune people 
+for nation 7, there are 6 infected people, 3945 susceptible people, 0 immune people 
+for nation 8, there are 2 infected people, 3889 susceptible people, 0 immune people 
+for nation 9, there are 7 infected people, 3825 susceptible people, 0 immune people 
+in total there are 89 infected people, 39782 susceptible people, 1 immune people 

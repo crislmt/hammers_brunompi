@@ -3,7 +3,7 @@ np2
 3.502257 seconds
 
 39872 10  10000 10000 2000 5000 2 50 100
- 5.921627 seconds
+5.921627 seconds
 
 398720 10  10000 10000 2000 5000 2 25 100
 55.493428 seconds
@@ -60,3 +60,12 @@ Execution time: 6.203934 seconds
 
 398720 10 10000 10000 5000 5000 2 25 100
 8.368974 seconds
+
+
+
+-----
+np2
+39872 10  100000 20000 2000 5000 2 5 100
+3.378955 seconds
+
+100000*20000 is roughly the maximum size that can be allocated for the grid that correspond to 500MB

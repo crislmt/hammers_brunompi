@@ -349,7 +349,7 @@ void computeNewInfected(bool *reduced_world, Person *process_people)
     {
           int x = (int)process_people[person].x;
           int y = (int)process_people[person].y;
-          if (process_people[person].status == INFECTED)
+          if (process_people[person].status == INFECTED || process_people[person].status == IMMUNE)
           {
                 continue;
           }
@@ -403,7 +403,7 @@ void computeNewInfected(bool *reduced_world, Person *process_people)
 void computeNewInfectedOptLargeDistance(Person* process_people, int* infected_x_positions, int* infected_y_positions, int global_infected){
   for(int person=0; person<chunksize; person++){    
       if(process_people[person].id<true_N){
-              if(process_people[person].status==INFECTED){
+              if(process_people[person].status==INFECTED || process_people[person].status == IMMUNE){
                 continue;
               }
               else{

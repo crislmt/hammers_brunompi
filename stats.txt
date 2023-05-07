@@ -68,4 +68,4 @@ np2
 39872 10  100000 20000 2000 5000 2 5 100
 3.378955 seconds
 
-100000*20000 is roughly the maximum size that can be allocated for the grid that correspond to 500MB
+100000*20000 is roughly the maximum size that can be allocated for the grid that correspond to 500

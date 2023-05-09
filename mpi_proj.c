@@ -13,8 +13,10 @@
 #define TEN_MINUTES 600
 #define DAY 86400
 //Global Variables
-int N,I,t, W, L, w, l, true_N, chunksize, n_country;
+int N,I,t, w, l, true_N, chunksize, n_country;
+long  W, L;
 float v, d;
+bool large_grid;
 
 //Function headers
 bool is_in_range(Person p, int x, int y);
@@ -75,8 +77,10 @@ void infection(){
     int rk;
     int sz;
     clock_t initTime, endTime;
-    
-    bool* reduced_world=(bool*)malloc((W*L)*sizeof(bool));
+    if(W*L > 1000000000)large_grid=true;
+    bool* reduced_world;
+    if(!large_grid)reduced_world=(bool*)malloc((W*L)*sizeof(bool));
+    else reduced_world=NULL;
     resetWorld(reduced_world);
     
     MPI_Comm_rank(MPI_COMM_WORLD, &rk);
@@ -182,19 +186,21 @@ void infection(){
         MPI_Gatherv(local_infected_y_positions, local_infected, MPI_INT, &global_infected_y_positions, rcvcount ,displ, MPI_INT, 0, MPI_COMM_WORLD);
         MPI_Bcast(global_infected_x_positions, global_infected, MPI_INT, 0, MPI_COMM_WORLD);
         MPI_Bcast(global_infected_y_positions, global_infected, MPI_INT, 0, MPI_COMM_WORLD);
-        if(d*d<global_infected){
+        if(d*d<global_infected && !large_grid){
            putInfectedOnTheWorld(reduced_world, global_infected_x_positions, global_infected_y_positions, global_infected);
            computeNewInfected(reduced_world, process_people);
            removeInfectedFromTheWorld(reduced_world, global_infected_x_positions, global_infected_y_positions, global_infected); 
         }
-        else computeNewInfectedOptLargeDistance(process_people, global_infected_x_positions, global_infected_y_positions, global_infected);
+        else if(d*d>=global_infected || large_grid){
+          computeNewInfectedOptLargeDistance(process_people, global_infected_x_positions, global_infected_y_positions, global_infected);
+        } 
         
         if(global_timer==0){
             day++;
             if(rk==0)printf("day %d:\n", day);
             endTime = clock();
             double cpu_time_used = ((double) (endTime - initTime)) / CLOCKS_PER_SEC;
-            if(rk==0)printf("Execution time: %f seconds\n", cpu_time_used);
+            
             global_timer = DAY;
             for(int i=0;i<n_country;i++){
                   nation_infected[i]=0;
@@ -243,6 +249,7 @@ void infection(){
                 }
                 printf("in total there are %d infected people, %d susceptible people, %d immune people \n", infected, susceptible, immune);
             }
+            if(rk==0)printf("Execution time: %f seconds\n", cpu_time_used);
             MPI_Barrier(MPI_COMM_WORLD);
             MPI_Bcast(&end, 1, MPI_INT, 0, MPI_COMM_WORLD);
             if(end==0)return;
@@ -309,6 +316,7 @@ void initialize(int number_of_persons, int infected_persons, int rectangular_wid
 }
 
 void printWorld(bool* world){
+  if(large_grid)return;
   for(int i = 0; i<L; i++){
     for(int j = 0; j<W; j++){
       printf("%d ", world[i*W+j]);
@@ -318,6 +326,7 @@ void printWorld(bool* world){
 }
 
 void resetWorld(bool* world){
+  if(large_grid)return;
   for (int i = 0; i < L; i++){
         for(int j = 0; j<W; j++){
           world[i*W+j]=false;
@@ -326,6 +335,7 @@ void resetWorld(bool* world){
 }
 
 void putInfectedOnTheWorld(bool* world, int* x_positions, int* y_positions, int num_infected){
+  if(large_grid)return;
   unsigned pos;
   for(int i = 0; i<num_infected; i++){
     pos=(int)y_positions[i]*W+(int)x_positions[i];
@@ -334,6 +344,7 @@ void putInfectedOnTheWorld(bool* world, int* x_positions, int* y_positions, int 
 }
 
 void removeInfectedFromTheWorld(bool* world, int* x_positions, int* y_positions, int num_infected){
+  if(large_grid)return;
   unsigned pos;
   for(int i = 0; i<num_infected; i++){
     pos=(int)y_positions[i]*W+(int)x_positions[i];
